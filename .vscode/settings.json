@@ -5,6 +5,7 @@
   "githubIssues.issueCompletionFormatScm": "${issueNumberLabel}: ${issueTitle}",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "cSpell.words": [
+    "daisyui",
     "tailwindcss"
   ],
 }
