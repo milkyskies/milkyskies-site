@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "githubIssues.issueBranchTitle": "${issueNumber}-${sanitizedIssueTitle}",
+  "githubIssues.workingIssueFormatScm": "${issueTitle} \nCloses ${issueNumberLabel}",
+  "githubIssues.issueCompletionFormatScm": "${issueNumberLabel}: ${issueTitle}",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+}
