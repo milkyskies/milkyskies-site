@@ -15,7 +15,7 @@ export type CarouselItem = {
 
 export function Carousel({ items }: { items: CarouselItem[] }) {
 	return (
-		<div className="carousel-center carousel rounded-box mt-5 w-full space-x-4 bg-neutral p-4 items-center md:hidden">
+		<div className="carousel-center rounded-box mt-5 max-w-full space-x-4 bg-neutral p-4 items-center inline-flex overflow-x-scroll snap-mandatory snap-x scroll-smooth">
 			{items.map((item) => (
 				<div key={item.link} className="relative">
 					<a
@@ -50,7 +50,7 @@ export function Carousel({ items }: { items: CarouselItem[] }) {
                   `}
 						</style>
 						<div
-							className={`w-60 rounded-box bg-base-300 transition-all group-hover:scale-[1.02] max-h-60 overflow-hidden
+							className={`w-60 rounded-box bg-base-300 transition-all group-hover:scale-[1.02] max-h-48 overflow-hidden
                 ${item.mockup === Mockup.MAC ? "mockup-mac" : ""}
                 ${item.mockup === Mockup.IPHONE ? "mockup-iphone" : ""}
               `}
@@ -58,7 +58,7 @@ export function Carousel({ items }: { items: CarouselItem[] }) {
 							<Image
 								src={item.image}
 								alt={item.label}
-								className=" object-scale-down brightness-[0.35] transition-all group-hover:brightness-[0.3] blur-[2px]"
+								className="object-scale-down brightness-[0.35] transition-all group-hover:brightness-[0.3] blur-[2px]"
 							/>
 						</div>
 						<div className="absolute inset-0 flex items-center justify-center px-2">

@@ -5,9 +5,15 @@
   "githubIssues.issueCompletionFormatScm": "${issueNumberLabel}: ${issueTitle}",
   "editor.defaultFormatter": "rome.rome",
   "cSpell.words": [
+    "cloudhopper",
     "daisyui",
+    "Ginga",
     "invision",
+    "keihan",
+    "Nuxt",
     "tailwindcss",
+    "tategaki",
+    "tsubasa",
     "wellguard"
   ],
   "typescript.tsdk": "node_modules/typescript/lib"
