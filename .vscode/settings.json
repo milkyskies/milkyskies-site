@@ -3,9 +3,12 @@
   "githubIssues.issueBranchTitle": "${issueNumber}-${sanitizedIssueTitle}",
   "githubIssues.workingIssueFormatScm": "${issueTitle} \nCloses ${issueNumberLabel}",
   "githubIssues.issueCompletionFormatScm": "${issueNumberLabel}: ${issueTitle}",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "rome.rome",
   "cSpell.words": [
     "daisyui",
-    "tailwindcss"
+    "invision",
+    "tailwindcss",
+    "wellguard"
   ],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
