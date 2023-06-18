@@ -1,22 +1,22 @@
 "use client";
 
-import webSculptorsImage from "@/assets/web_sculptors.png";
-import invisionImage from "@/assets/invision.jpeg";
-import wellguardImage from "@/assets/wellguard.jpeg";
-import recessImage from "@/assets/recess.png";
-import orderMapImage from "@/assets/order_map.png";
-import orderFormImage from "@/assets/order_form.png";
-import talkAppImage from "@/assets/talk_app.png";
-import milkyskiesGithubImage from "@/assets/milkyskies_github.png";
-import cloudhopper from "@/assets/cloudhopper.png";
-import keihan from "@/assets/keihan.png";
-import tsubasa from "@/assets/tsubasa.png";
+import webSculptorsImage from "@/asset/web_sculptors.png";
+import invisionImage from "@/asset/invision.jpeg";
+import wellguardImage from "@/asset/wellguard.jpeg";
+import recessImage from "@/asset/recess.png";
+import orderMapImage from "@/asset/order_map.png";
+import orderFormImage from "@/asset/order_form.png";
+import talkAppImage from "@/asset/talk_app.png";
+import milkyskiesGithubImage from "@/asset/milkyskies_github.png";
+import cloudhopper from "@/asset/cloudhopper.png";
+import keihan from "@/asset/keihan.png";
+import tsubasa from "@/asset/tsubasa.png";
 
-import { Section } from "@/component/home/section";
-import { GithubIcon } from "@/component/common/icons/github_icon";
-import { TwitterIcon } from "@/component/common/icons/twitter_icon";
-import { HistoryItem } from "@/component/home/history_item";
-import { Carousel, Mockup } from "@/component/common/Carousel";
+import { Section } from "@/components/home/section";
+import { GithubIcon } from "@/components/common/icon/github_icon";
+import { TwitterIcon } from "@/components/common/icon/twitter_icon";
+import { HistoryItem } from "@/components/home/history_item";
+import { Carousel, Mockup } from "@/components/common/Carousel";
 
 function Header() {
 	return (

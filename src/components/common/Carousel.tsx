@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import { ExternalLinkIcon } from "./icons/external_link_icon";
+import { ExternalLinkIcon } from "./icon/external_link_icon";
 
 export enum Mockup {
 	MAC = "MAC",

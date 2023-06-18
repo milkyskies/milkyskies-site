@@ -1,4 +1,4 @@
-import { ExternalLinkIcon } from "../common/icons/external_link_icon";
+import { ExternalLinkIcon } from "../common/icon/external_link_icon";
 
 export function HistoryItem({
 	period,
