@@ -300,7 +300,7 @@ function Other() {
 				<HistoryItem
 					title="LINE ChatGPT Bot"
 					position="サーバー開発"
-					tags={["Go", "SurrealDB"]}
+					tags={["Go", "SurrealDB", "OpenAI", "ChatGPT", "Whisper", "GCP"]}
 				>
 					<Carousel
 						items={[
