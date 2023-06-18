@@ -24,7 +24,7 @@ export function Carousel({ items }: { items: CarouselItem[] }) {
 						className="group"
 						rel="noreferrer"
 					>
-						<style jsx>
+						<style>
 							{`
                     .mockup-mac {
                       position: relative;
