@@ -107,7 +107,7 @@ function Experience() {
 							{
 								image: wellguardImage,
 								label: "Wellguard Insurance",
-								link: "https://wellguardinsurance.com/",
+								link: "https://wellguardfinancial.com/",
 								mockup: Mockup.MAC,
 							},
 							{
