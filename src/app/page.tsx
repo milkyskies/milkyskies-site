@@ -12,11 +12,11 @@ import cloudhopper from "@/assets/cloudhopper.png";
 import keihan from "@/assets/keihan.png";
 import tsubasa from "@/assets/tsubasa.png";
 
-import { Section } from "@/components/home/section";
-import { GithubIcon } from "@/components/common/icons/github_icon";
-import { TwitterIcon } from "@/components/common/icons/twitter_icon";
-import { HistoryItem } from "@/components/home/history_item";
-import { Carousel, Mockup } from "@/components/common/Carousel";
+import { Section } from "@/component/home/section";
+import { GithubIcon } from "@/component/common/icons/github_icon";
+import { TwitterIcon } from "@/component/common/icons/twitter_icon";
+import { HistoryItem } from "@/component/home/history_item";
+import { Carousel, Mockup } from "@/component/common/Carousel";
 
 function Header() {
 	return (
